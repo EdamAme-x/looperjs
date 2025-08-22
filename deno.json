@@ -1,0 +1,20 @@
+{
+  "name": "looperjs",
+  "version": "0.0.1",
+  "description": "LooperJS is the ideal utility for managing loop operations in JavaScript and TypeScript 🌀",
+  "author": "LooperJS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdamAme-x/looperjs.git"
+  },
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "exports": {
+    ".": "./lib.ts"
+  }
+}
